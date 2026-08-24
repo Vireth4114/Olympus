@@ -106,6 +106,10 @@ namespace Olympus {
                     case "otobot":
                         yield return $"https://banana-mirror-mods.celestemods.com/{gbid}.zip";
                         break;
+
+                    case "risingsunlight":
+                        yield return $"https://library.risingsunlight.dev/celeste/mods/{gbid}.zip";
+                        break;
                 }
             }
         }
