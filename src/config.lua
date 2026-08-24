@@ -135,7 +135,7 @@ function config.load()
     default(data, "updateModsOnStartup", "none")
     default(data, "useOpenGL", "disabled")
 
-    default(data, "mirrorPreferences", "gb,jade,otobot,wegfan,risingsunlight")
+    default(data, "mirrorPreferences", "gb,jade,risingsunlight,otobot,wegfan")
     default(data, "apiMirror", false)
     default(data, "imageMirror", "jade") -- jade, otobot or none
 
